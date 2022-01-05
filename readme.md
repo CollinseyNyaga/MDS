@@ -9,9 +9,11 @@
 <h4>
 	Why this data structure
 </h4>
+<p>
 	I just wanted to try creating a string that is a collection . Thats the first idea. 
 	And then i just thought , why not create a Datacontainer that represents different data in
 	 strings , and the data can be of many types 
+</p>
 <br>
 <br>
 	Example , i can store an array of elements in one string 
