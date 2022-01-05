@@ -17,7 +17,6 @@
 <code>
 
 	int A = 7;
-	<br>
 	int B = 8;
 
 	Mds.Ucont myArray = new Mds.Ucont();		// create instance of ucont container.
