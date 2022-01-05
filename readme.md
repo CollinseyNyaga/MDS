@@ -14,8 +14,17 @@
 	I just wanted to try creating a string that is a collection . Thats the first idea. 
 	And then i just thought , why not create a Datacontainer that represents different data in
 	 strings , and the data can be of many types 
-	Example , i can store an array of elements in one string , 
-	a list of different elements of different types in one single string , and be able to access it rapidly. 
+	<br>
+	Example , i can store an array of elements in one string 
+	<br>
+	Or a list of different elements of different types in one single string , and be able to access it rapidly. 
+	
+	<br>
+	You can also easily change the mode of the datastructure to the specific kind of collection you want.
+	<br>
+	Example : you can use Array mode [this is the standard mode of the datastructure] 
+	<br>
+	or list mode [allows you to store different types of values]
 <br>
 
 <code>
