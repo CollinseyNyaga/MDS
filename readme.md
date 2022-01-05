@@ -1,15 +1,11 @@
 <h2>
 	MDS (Mutating Data Structure)
 </h2>
-
 <br>
-
 <h4>
 	Its a string , its a list , its an array , its a graph maybe , it can store almost 
 	everything. Its mutating !!!!!!!!!!	<insert pixar studio screams>
 </h4>
-
-<br>
 <br>
 <h4>
 	Why this data structure
@@ -19,7 +15,9 @@
 <br>
 
 <code>
+
 	int A = 7;
+	<br>
 	int B = 8;
 
 	Mds.Ucont myArray = new Mds.Ucont();		// create instance of ucont container.
