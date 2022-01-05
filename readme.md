@@ -16,15 +16,17 @@
 </p>
 <br>
 <br>
+<p>
 	Example , i can store an array of elements in one string 
+</p>
 <br>
 <br>
-
+<p>
 	Or a list of different elements of different types in one single string , and be able to access it rapidly. 
-	
+</p>	
 <br>
 <br>
-
+<p>
 	You can also easily change the mode of the datastructure to the specific kind of collection you want.
 <br>
 <br>
@@ -34,6 +36,7 @@
 <br>
 	or list mode [allows you to store different types of values]
 <br>
+</p>
 
 <code>
 
