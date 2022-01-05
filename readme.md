@@ -16,10 +16,7 @@
 </p>
 <br>
 	Example , i can store an array of elements in one string 
-<br>
-<p>
-	Or a list of different elements of different types in one single string , and be able to access it rapidly. 
-</p>	
+	Or a list of different elements of different types in one single string , and be able to access it rapidly. 	
 <br>
 <br>
 <p>
