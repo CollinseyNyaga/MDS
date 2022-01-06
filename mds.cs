@@ -10,20 +10,23 @@ namespace Mds
     {
         // Ucont attributes 
         private string Data = "";                        
-        private int size;                           // number of elements - 1.
+        private int Size;                           // number of elements - 1.
+        UcontMode Mode = UcontMode.list;
 
 
+        //
 
         // Ucont constants / enumerations
         enum UcontMode
         {
-            array,                                  // the default mode of the datastructure.
-            list,
+            list,                                   // the default mode of the datastructure.
+            singletype,
             graph
         }
 
 
-
+        //
+        
         // Ucont methods 
         public void AddElement()
         {
