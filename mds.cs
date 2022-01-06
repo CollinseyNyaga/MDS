@@ -45,7 +45,7 @@ namespace Mds
 
         public bool Contains()
         {
-
+            return false;
         }
     }
 }
