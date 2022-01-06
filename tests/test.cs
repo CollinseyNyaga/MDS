@@ -3,6 +3,7 @@
 */
 
 using System;
+using Mds;                      // the mutating datastructure library namespace.
 
 namespace test
 {
