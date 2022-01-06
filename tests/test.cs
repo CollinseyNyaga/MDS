@@ -16,6 +16,8 @@ namespace test
 
         static void test1()
         {
+            // adding an element to the universal container : 
+            
             System.Console.WriteLine("hello data structure");
         }
 
