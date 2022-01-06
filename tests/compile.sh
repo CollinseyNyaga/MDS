@@ -5,6 +5,7 @@ execName="test"
 
 mcs test.cs ../mds.cs -out:./build/"${execName}.exe"
 
-printf ""
-printf ""
-printf "Run the bashscript : run.sh"
+printf "\n"
+printf "\n=====================================\n"
+printf "	Run the bashscript : run.sh"
+printf "\n=====================================\n"
