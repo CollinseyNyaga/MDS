@@ -14,6 +14,15 @@ namespace Mds
 
 
 
-        
+        // Ucont methods 
+        public void AddElement()
+        {
+
+        }
+
+        public void GetElement()
+        {
+            
+        }
     }
 }

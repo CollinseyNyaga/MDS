@@ -11,7 +11,7 @@ namespace test
     {
         static void Main()
         {
-
+            test1();
         }
 
         static void test1()
