@@ -1,0 +1,1 @@
+# this script compiles the test program into executable. 
