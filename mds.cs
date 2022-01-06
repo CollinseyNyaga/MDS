@@ -20,7 +20,17 @@ namespace Mds
 
         }
 
-        public void GetElement()
+        public void GetElement(int index)
+        {
+
+        }
+
+        public void RemoveElement()
+        {
+
+        }
+
+        public bool Contains()
         {
             
         }
