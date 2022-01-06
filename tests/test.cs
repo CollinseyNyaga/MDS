@@ -16,7 +16,7 @@ namespace test
 
         static void test1()
         {
-
+            System.Console.WriteLine("hello data structure");
         }
 
     }

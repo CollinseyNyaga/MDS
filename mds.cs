@@ -9,8 +9,18 @@ namespace Mds
     public class Ucont
     {
         // Ucont attributes 
-        string Data;                        
-        int size;                           // number of elements - 1.
+        private string Data = "";                        
+        private int size;                           // number of elements - 1.
+
+
+
+        // Ucont constants / enumerations
+        enum UcontMode
+        {
+            array,                                  // the default mode of the datastructure.
+            list,
+            graph
+        }
 
 
 
@@ -32,7 +42,7 @@ namespace Mds
 
         public bool Contains()
         {
-            
+
         }
     }
 }
