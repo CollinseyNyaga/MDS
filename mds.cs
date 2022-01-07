@@ -38,7 +38,7 @@ namespace Mds
 
         }
 
-        public void RemoveElement()
+        public void ReplaceElement(int index)
         {
 
         }
