@@ -1,5 +1,5 @@
-Add an element to a universal container instance, as a string.          @done
-Print out the elements of the final universal container.                @done
+- Add an element to a universal container instance, as a string.          @done
+- Print out the elements of the final universal container.                @done
 
 
 GetElement at the specified index. 
