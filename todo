@@ -3,7 +3,7 @@
 
 
 - GetElement at the specified index. 
-- 
+- Check if an element is contained in the Data. 
 
 
 finesse the compilation process of the test by creating the bash scripts better 
