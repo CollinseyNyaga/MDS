@@ -31,9 +31,6 @@ namespace Mds
         public void AddElement(string element)
         {
             Data = $"{Data},{element}";
-
-
-            System.Console.WriteLine(element);
         }
 
         public void GetElement(int index)
