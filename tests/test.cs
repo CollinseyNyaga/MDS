@@ -30,7 +30,9 @@ namespace test
 
             Mds.Ucont myArray = new Mds.Ucont(); 
             myArray.AddElement(fname);      
-            myArray.AddElement(lname);     
+            myArray.AddElement(lname);   
+
+            System.Console.WriteLine(myArray.GetRawData());  
         }
 
     }
