@@ -10,7 +10,7 @@ namespace Mds
     {
         // Ucont attributes 
         private string Data = "";                        
-        private int Size;                           // number of elements - 1.
+        private int Size = 0;                           // number of elements - 1.
         UcontMode Mode = UcontMode.list;
 
 
@@ -30,7 +30,7 @@ namespace Mds
         // Ucont methods 
         public void AddElement(string element)
         {
-            Data = $"{Data},{element}";
+            Data = $"{Data}{element},";
         }
 
         public void GetElement(int index)
