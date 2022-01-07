@@ -30,7 +30,10 @@ namespace Mds
         // Ucont methods 
         public void AddElement(string element)
         {
+            Data = $"{Data},{element}";
 
+
+            System.Console.WriteLine(element);
         }
 
         public void GetElement(int index)
@@ -46,6 +49,12 @@ namespace Mds
         public bool Contains()
         {
             return false;
+        }
+
+        public string GetRawData()
+        {
+            // gets the data stored inform of string in the 
+            return Data;
         }
     }
 }
