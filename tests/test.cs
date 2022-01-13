@@ -12,7 +12,8 @@ namespace test
         static void Main()
         {
             // test0();
-            test1();
+            // test1();
+            // test2();
         }
 
 
@@ -22,6 +23,7 @@ namespace test
         {
             System.Console.WriteLine("hello data structure");
         }
+
         static void test1()
         {
             // adding an element to the universal container : 
@@ -33,6 +35,12 @@ namespace test
             myArray.AddElement(lname);   
 
             System.Console.WriteLine(myArray.GetRawData());  
+        }
+
+        static void test2()
+        {
+            // getting an element from the specified index : 
+            
         }
 
     }

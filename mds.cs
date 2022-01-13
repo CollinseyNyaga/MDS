@@ -54,4 +54,12 @@ namespace Mds
             return Data;
         }
     }
+
+
+
+    // another class : 
+    private static class Lexer
+    {
+        
+    }
 }
