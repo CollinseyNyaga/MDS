@@ -21,7 +21,7 @@
 <p>
 	You can also easily change the mode of the datastructure to the specific kind of collection you want.
 <br>
-	Example : you can use Array mode [this is the standard default mode of the datastructure] 
+	Example : you can use List mode [the standard default mode of the data container] 
 <br>
 	or list mode [allows you to store different types of values]
 <br>
