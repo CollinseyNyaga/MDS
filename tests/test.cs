@@ -30,17 +30,22 @@ namespace test
             string fname = "mutant";
             string lname = "mutate";
 
-            Mds.Ucont myArray = new Mds.Ucont(); 
-            myArray.AddElement(fname);      
-            myArray.AddElement(lname);   
+            Mds.Ucont myArray = new Mds.Ucont();
+            myArray.AddElement(fname);
+            myArray.AddElement(lname);
 
-            System.Console.WriteLine(myArray.GetRawData());  
+            System.Console.WriteLine(myArray.GetRawData());
         }
 
         static void test2()
         {
             // getting an element from the specified index : 
-            
+
+            // object of the universal container: 
+            Mds.Ucont myArr = new Mds.Ucont();
+
+
+
         }
 
     }
