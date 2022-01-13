@@ -79,15 +79,16 @@ namespace Mds
                 {
                     // separator has been read from data . 
 
-                    // if the next index is the index we seek , 
+
                     // get the element at the current index using the current seperator index and the previous seperator index.
-                    if(seperatorcount == index)
+                    if (seperatorcount == index)
                     {
+                        // when we reach the index that we seek the element ,
                         
                     }
 
 
-                    if (i+1 == index)
+                    if (i + 1 == index)
                     {
                         for (int j = previousSeparatorIndex + 1; j < i; j++)
                         {
