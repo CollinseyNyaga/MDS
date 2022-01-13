@@ -28,10 +28,10 @@
 
 <br>
 <h4>Current limitations : </h4>
-<p>
-	<p>1.&nbsp;Cant store an element in the Universal container that contains the same character as the data element seperator.</p>
-	<p>1.&nbsp;For every time you want to create a data container , you will have to create the object of the Mds.Ucont class.</p>
-</p>
+	<p>1.&nbsp;Cant store an element in the Universal container that contains the same character as the data element seperator.(the default data element seperator is the ']' symbol , but can be changed to the will of the programmer)</p>
+	<br>
+	<p>2.&nbsp;For every time you want to create a data container , you will have to create the object of the Mds.Ucont class.</p>
+
 
 <!--Example code section -->
 
