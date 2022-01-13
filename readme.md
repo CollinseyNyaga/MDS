@@ -5,7 +5,7 @@
 	Its a string , its a list , its an array , its a graph maybe , it can store almost 
 	everything.
 	<br>
-	Its mutating !!!!!!!!!!	&#60;insert pixar studio screams&#62;
+	Its mutating !!!!!!!!!!	&nbsp; &#60;insert pixar studio screams&#62;
 </h4>
 <br>
 <h4>
@@ -24,6 +24,13 @@
 <br>
 	or list mode [allows you to store different types of values]
 <br>
+</p>
+
+<br>
+<h4>Current limitations : </h4>
+<p>
+	<p>1.&nbsp;Cant store an element in the Universal container that contains the same character as the data element seperator.</p>
+	<p>1.&nbsp;For every time you want to create a data container , you will have to create the object of the Mds.Ucont class.</p>
 </p>
 
 <!--Example code section -->
