@@ -85,7 +85,7 @@ namespace Mds
                         // when we reach the index that we seek the element ,
                         // get the element at the current index using the current seperator index and the previous seperator index.
 
-                        for (int j = previousSeparatorIndex + 1; j < i; j++)
+                        for (int j = previousSeparatorIndex; j < i; j++)
                         {
                             element = element + data[j];                  // append the current character to the element string
                         }
