@@ -38,7 +38,7 @@ namespace Mds
             // we only get element when its within the size of the array : 
             if (index >= Data.Length)
             {
-                break;
+                return "";
             }
 
             return Mds.Lexer.GetElement(data: Data, index: index);
@@ -70,8 +70,8 @@ namespace Mds
         {
             string element = "";
 
-            uint previousSeparatorIndex = 0;
-            uint seperatorcount;
+            int previousSeparatorIndex = 0;
+            int seperatorcount = 0;
 
             for (int i = 0; i < data.Length; i++)
             {
@@ -80,29 +80,24 @@ namespace Mds
                     // separator has been read from data . 
 
 
-                    // get the element at the current index using the current seperator index and the previous seperator index.
                     if (seperatorcount == index)
                     {
                         // when we reach the index that we seek the element ,
-                        
-                    }
+                        // get the element at the current index using the current seperator index and the previous seperator index.
 
-
-                    if (i + 1 == index)
-                    {
                         for (int j = previousSeparatorIndex + 1; j < i; j++)
                         {
-                            element = element + j;                  // append the current character to the element string
+                            element = element + data[j];                  // append the current character to the element string
                         }
-                    }
 
+                        return element;
+                    }
 
 
                     previousSeparatorIndex = previousSeparatorIndex + 1;
                     seperatorcount = seperatorcount + 1;
                 }
             }
-
 
 
             return element;
