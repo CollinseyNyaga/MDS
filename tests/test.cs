@@ -45,10 +45,12 @@ namespace test
             Mds.Ucont myArr = new Mds.Ucont();
             string name1 = "hello";
             string name2 = "world";
+            string name3 = "this is the universal data container";
 
             // add the names to the universal container object we created. 
             myArr.AddElement(name1);
             myArr.AddElement(name2);
+            myArr.AddElement(name3);
 
             // get the elements from the container .[keep in mind that we only have a container of size 2]
             string firstElement = myArr.GetElement(0);
