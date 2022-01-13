@@ -9,7 +9,7 @@ namespace Mds
     public class Ucont
     {
         // Ucont attributes 
-        private string Data = "";                        
+        private string Data = "";
         private int Size = 0;                           // number of elements - 1.
         UcontMode Mode = UcontMode.list;
 
@@ -35,7 +35,7 @@ namespace Mds
 
         public string GetElement(int index)
         {
-            return Mds.Lexer.GetElement(index);
+            return Mds.Lexer.GetElement(data:Data ,index:index);
         }
 
         public void ReplaceElement(int index)
@@ -58,10 +58,14 @@ namespace Mds
 
 
     // another class : 
-    private static class Lexer
+    static class Lexer
     {
-        public static string GetElement(int index)
+        public static string GetElement(string data ,int index)
         {
+            
+
+
+
             return "< element name here >";
         }
     }
