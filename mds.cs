@@ -79,11 +79,17 @@ namespace Mds
                 {
                     // separator has been read from data . 
 
-                    // get the current element using the current seperator index and the previous seperator index.
-                    for (int j = previousSeparatorIndex + 1; j < i; j++)
+                    // if the current index is the index we seek , 
+                    // get the element at the current index using the current seperator index and the previous seperator index.
+
+                    if (i+1 == index)
                     {
-                        element = element + j;                  // append the current character to the element string
+                        for (int j = previousSeparatorIndex + 1; j < i; j++)
+                        {
+                            element = element + j;                  // append the current character to the element string
+                        }
                     }
+
 
 
                     previousSeparatorIndex = previousSeparatorIndex + 1;
