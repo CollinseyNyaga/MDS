@@ -12,8 +12,7 @@
 	Why this data structure
 </h4>
 	I just wanted to try creating a string that is a collection . Thats the first idea. 
-	And then i just thought , why not create a Datacontainer that represents different data in
-	 strings , and the data can be of many types 
+	And then i just thought , why not create a Datacontainer that represents different data inform of strings , and the data can be of many types 
 <br>
 	Example , i can store an array of elements in one string ,Or a list of different elements of different types in one single string , and be able to access it rapidly. 	
 <br>
