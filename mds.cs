@@ -90,7 +90,7 @@ namespace Mds
 
                         for (int j = previousSeparatorIndex; j < i; j++)
                         {
-                            if (data[j] == ',') continue;
+                            if (data[j] == Ucont.dataSeparator) continue;
 
                             element = element + data[j];                  // append the current character to the element string
                         }
