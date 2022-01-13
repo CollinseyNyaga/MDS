@@ -70,7 +70,7 @@ namespace Mds
         {
             string element = "";
 
-            int previousSeparatorIndex = 0;
+            int previousSeparatorIndex = 0;                             // index of the previous separator comma. 
             int seperatorcount = 0;
 
             for (int i = 0; i < data.Length; i++)
@@ -94,7 +94,7 @@ namespace Mds
                     }
 
 
-                    previousSeparatorIndex = previousSeparatorIndex + 1;
+                    previousSeparatorIndex = i;                         
                     seperatorcount = seperatorcount + 1;
                 }
             }
