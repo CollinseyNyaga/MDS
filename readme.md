@@ -34,7 +34,9 @@
 
 
 <!--Example code section -->
-
+<br>
+<h4>Use case Example :</h4>
+<br>
 <code>
 
 	int A = 7;
