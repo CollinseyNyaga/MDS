@@ -33,9 +33,15 @@ namespace Mds
             Data = $"{Data}{element},";
         }
 
-        public string GetElement(int index)
+        public string GetElement(uint index)
         {
-            return Mds.Lexer.GetElement(data:Data ,index:index);
+            // we only get element when its within the size of the array : 
+            if(index >= Data.Length)
+            {
+                break;
+            }
+
+            return Mds.Lexer.GetElement(data: Data, index: index);
         }
 
         public void ReplaceElement(int index)
@@ -60,9 +66,18 @@ namespace Mds
     // another class : 
     static class Lexer
     {
-        public static string GetElement(string data ,int index)
+        public static string GetElement(string data, uint index)
         {
-            
+            uint seperatorcount;
+
+            for (int i = 0; i < data.Length; i++)
+            {
+                if(data[i] == ',')
+                {
+                    // separator has been read from data . 
+                    seperatorcount = seperatorcount + 1;
+                }
+            }
 
 
 
