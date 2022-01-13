@@ -12,6 +12,7 @@ namespace Mds
         private string Data = "";
         private int Size = 0;                           // number of elements - 1.
         UcontMode Mode = UcontMode.list;
+        public char dataSeparator = ']';
 
 
         //
@@ -30,7 +31,9 @@ namespace Mds
         // Ucont methods 
         public void AddElement(string element)
         {
-            Data = $"{Data}{element},";
+            // the separator is variable and is used to make work easier for the lexer to determine the end of a piece of data. 
+
+            Data = $"{Data}{element}{dataSeparator}";
         }
 
         public string GetElement(uint index)
@@ -75,7 +78,7 @@ namespace Mds
 
             for (int i = 0; i < data.Length; i++)
             {
-                if (data[i] == ',')
+                if (data[i] == Ucont.dataSeparator)
                 {
                     // separator has been read from data . 
 
@@ -87,6 +90,8 @@ namespace Mds
 
                         for (int j = previousSeparatorIndex; j < i; j++)
                         {
+                            if (data[j] == ',') continue;
+
                             element = element + data[j];                  // append the current character to the element string
                         }
 
@@ -94,7 +99,7 @@ namespace Mds
                     }
 
 
-                    previousSeparatorIndex = i;                         
+                    previousSeparatorIndex = i;
                     seperatorcount = seperatorcount + 1;
                 }
             }
