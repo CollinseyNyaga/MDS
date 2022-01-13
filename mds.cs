@@ -33,9 +33,9 @@ namespace Mds
             Data = $"{Data}{element},";
         }
 
-        public void GetElement(int index)
+        public string GetElement(int index)
         {
-
+            return Mds.Lexer.GetElement(index);
         }
 
         public void ReplaceElement(int index)
@@ -58,11 +58,11 @@ namespace Mds
 
 
     // another class : 
-    private static class Lexer
+    public static class Lexer
     {
         public static string GetElement(int index)
         {
-            
+            return "< element name here >";
         }
     }
 }
