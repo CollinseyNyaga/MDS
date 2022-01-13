@@ -79,8 +79,13 @@ namespace Mds
                 {
                     // separator has been read from data . 
 
-                    // if the current index is the index we seek , 
+                    // if the next index is the index we seek , 
                     // get the element at the current index using the current seperator index and the previous seperator index.
+                    if(seperatorcount == index)
+                    {
+                        
+                    }
+
 
                     if (i+1 == index)
                     {
