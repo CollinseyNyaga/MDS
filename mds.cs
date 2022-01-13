@@ -60,6 +60,9 @@ namespace Mds
     // another class : 
     private static class Lexer
     {
-        
+        public static string GetElement(int index)
+        {
+            
+        }
     }
 }
