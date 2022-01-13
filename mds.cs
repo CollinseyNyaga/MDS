@@ -36,7 +36,7 @@ namespace Mds
         public string GetElement(uint index)
         {
             // we only get element when its within the size of the array : 
-            if(index >= Data.Length)
+            if (index >= Data.Length)
             {
                 break;
             }
@@ -68,20 +68,32 @@ namespace Mds
     {
         public static string GetElement(string data, uint index)
         {
+            string element = "";
+
+            uint previousSeparatorIndex = 0;
             uint seperatorcount;
 
             for (int i = 0; i < data.Length; i++)
             {
-                if(data[i] == ',')
+                if (data[i] == ',')
                 {
                     // separator has been read from data . 
+
+                    // get the current element using the current seperator index and the previous seperator index.
+                    for (int j = previousSeparatorIndex + 1; j < i; j++)
+                    {
+                        element = element + j;                  // append the current character to the element string
+                    }
+
+
+                    previousSeparatorIndex = previousSeparatorIndex + 1;
                     seperatorcount = seperatorcount + 1;
                 }
             }
 
 
 
-            return "< element name here >";
+            return element;
         }
     }
 }
