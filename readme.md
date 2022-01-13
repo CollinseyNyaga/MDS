@@ -19,7 +19,7 @@
 <br>
 <br>
 <p>
-	You can also easily change the mode of the datastructure to the specific kind of collection you want.
+	You can easily change the mode of dataStorage in the universal data container to the specific kind you want.
 <br>
 	Example : you can use List mode [the standard default mode of the data container] 
 <br>
