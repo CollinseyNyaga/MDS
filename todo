@@ -1,9 +1,9 @@
 - Add an element to a universal container instance, as a string.          @done
 - Print out the elements of the final universal container.                @done
+- GetElement at the specified index.                                        @done
 
 
-- GetElement at the specified index. 
-- Check if an element is contained in the Data. 
+- Check if an element is contained in the Data using the Ucont.Contains()     
 
 
 finesse the compilation process of the test by creating the bash scripts better 
