@@ -55,7 +55,7 @@ namespace test
             // get the elements from the container .[keep in mind that we only have a container of size 2]
             string firstElement = myArr.GetElement(0);
             System.Console.WriteLine(firstElement);
-            System.Console.WriteLine(myArr.GetElement(2));
+            System.Console.WriteLine(myArr.GetElement(1));
 
 
         }

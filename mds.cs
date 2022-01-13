@@ -12,7 +12,7 @@ namespace Mds
         private string Data = "";
         private int Size = 0;                           // number of elements - 1.
         UcontMode Mode = UcontMode.list;
-        public char dataSeparator = ']';
+        public static char dataSeparator = ']';
 
 
         //
