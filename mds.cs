@@ -63,24 +63,10 @@ namespace Mds
                     return true;
                 }
             }
-            
-            return false;
-        }
-
-        public bool method()
-        {
-            for (uint i = 0; i < 7; i++)
-            {
-                if (i == 4)
-                {
-                    return true;
-                }
-
-                System.Console.WriteLine("hello");
-            }
 
             return false;
         }
+
 
         public string GetRawData()
         {
