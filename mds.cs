@@ -10,7 +10,7 @@ namespace Mds
     {
         // Ucont attributes 
         private string Data = "";
-        public int Size = 0;                           // number of elements - 1.
+        private int Size = 0;                           // number of elements - 1.
         UcontMode Mode = UcontMode.list;
         public static char dataSeparator = ']';
 
