@@ -78,8 +78,7 @@ namespace test
             // System.Console.WriteLine(A);
             // System.Console.WriteLine(B);
 
-            mycont.method();
-            // System.Console.WriteLine();
+            System.Console.WriteLine(mycont.Contains("5"));
         }
 
     }

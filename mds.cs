@@ -54,16 +54,17 @@ namespace Mds
 
         public bool Contains(string element)
         {
-            for (uint i = 0; i <= (uint)Size; i++)
-            {
-                System.Console.WriteLine(i);
 
-                // // check if the element is contained in the container in a reverse order.
-                // if (GetElement(index: i) == element)
-                // {
-                //     return true;
-                // }
-            }
+            // for (uint i = 0; i <= (uint)Size; i++)
+            // {
+            //     System.Console.WriteLine(i);
+
+            //     // check if the element is contained in the container in a reverse order.
+            //     if (GetElement(index: i) == element)
+            //     {
+            //         return true;
+            //     }
+            // }
 
             return false;
         }
