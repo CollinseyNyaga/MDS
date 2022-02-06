@@ -68,12 +68,19 @@ namespace Mds
             return false;
         }
 
-        public void method()
+        public bool method()
         {
             for (int i = 0; i < 7; i++)
             {
+                if(i == 4)
+                {
+                    return true;
+                }
+
                 System.Console.WriteLine("hello");
             }
+
+            return false;
         }
 
         public string GetRawData()
