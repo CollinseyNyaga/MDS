@@ -54,9 +54,9 @@ namespace Mds
 
         public bool Contains(string element)
         {
-            uint elementCount = Size;
+            uint elementCount = (uint)Size;
 
-            for (int i = elementCount; i >= 0; i--)
+            for (uint i = elementCount; i >= 0; i--)
             {
                 // check if the element is contained in the container in a reverse order.
                 if(GetElement(i) == element)
