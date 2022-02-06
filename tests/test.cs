@@ -65,7 +65,14 @@ namespace test
         static void test3()
         {
             // checking if an element is contained in the Universal container created as an object . 
-            System.Console.WriteLine("Thank God for this day");
+            Mds.Ucont mycont = new Mds.Ucont();
+            mycont.AddElement("hello");
+            mycont.AddElement("5");
+            mycont.AddElement("world");
+
+
+
+            System.Console.WriteLine(mycont.GetRawData());
         }
 
     }
