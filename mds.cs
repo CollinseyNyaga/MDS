@@ -52,16 +52,31 @@ namespace Mds
 
         }
 
-        public bool Contains()
+        public bool Contains(string element)
         {
+            uint elementCount = Size;
+
+            for (int i = elementCount; i >= 0; i--)
+            {
+                // check if the element is contained in the container in a reverse order.
+                if(GetElement(i) == element)
+                {
+                    return true;
+                }
+            }
+
             return false;
         }
+
+
 
         public string GetRawData()
         {
             // gets the data stored inform of string in the data container itself. 
             return Data;
         }
+
+
     }
 
 
