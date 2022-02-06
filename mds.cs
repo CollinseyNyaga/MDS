@@ -59,7 +59,7 @@ namespace Mds
 
         public string GetRawData()
         {
-            // gets the data stored inform of string in the 
+            // gets the data stored inform of string in the data container itself. 
             return Data;
         }
     }
