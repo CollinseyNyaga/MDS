@@ -61,7 +61,7 @@ namespace Mds
                 System.Console.WriteLine(i);
 
                 // check if the element is contained in the container in a reverse order.
-                if(GetElement(i) == element)
+                if (GetElement(index: i) == element)
                 {
                     return true;
                 }
