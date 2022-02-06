@@ -56,7 +56,7 @@ namespace Mds
         {
             uint elementCount = (uint)Size;
 
-            for (uint i = elementCount; i >= 0; i--)
+            for (uint i = 0; i < elementCount; i++)
             {
                 // check if the element is contained in the container in a reverse order.
                 if(GetElement(i) == element)
