@@ -73,10 +73,10 @@ namespace test
             bool A = mycont.Contains("5");                          // check if 5 is contained in the ucont container. 
             bool B = mycont.Contains("seven");                      // check if seven is contained in the ucont container. 
 
-            System.Console.WriteLine(mycont.GetRawData());       
-            System.Console.WriteLine("------------------");   
-            System.Console.WriteLine(A);
-            System.Console.WriteLine(B);
+            // System.Console.WriteLine(mycont.GetRawData());       
+            // System.Console.WriteLine("------------------");   
+            // System.Console.WriteLine(A);
+            // System.Console.WriteLine(B);
         }
 
     }
