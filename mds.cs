@@ -57,13 +57,13 @@ namespace Mds
         {
             for (uint i = 0; i <= Size; i++)
             {
-                    // check if the element is contained in the container
-                    if (GetElement(index: i) == element)
-                    {
-                        return true;
-                    }
+                // check if the element is contained in the container
+                if (GetElement(index: i) == element)
+                {
+                    return true;
+                }
             }
-
+            
             return false;
         }
 
