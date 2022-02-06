@@ -58,11 +58,11 @@ namespace Mds
             {
                 System.Console.WriteLine(i);
 
-                // check if the element is contained in the container in a reverse order.
-                if (GetElement(index: i) == element)
-                {
-                    return true;
-                }
+                // // check if the element is contained in the container in a reverse order.
+                // if (GetElement(index: i) == element)
+                // {
+                //     return true;
+                // }
             }
 
             return false;
@@ -70,7 +70,7 @@ namespace Mds
 
         public bool method()
         {
-            for (int i = 0; i < 7; i++)
+            for (uint i = 0; i < 7; i++)
             {
                 if(i == 4)
                 {
