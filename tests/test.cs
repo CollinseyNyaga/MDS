@@ -78,7 +78,7 @@ namespace test
             // System.Console.WriteLine(A);
             // System.Console.WriteLine(B);
 
-            System.Console.WriteLine(mycont.GetElement(index:mycont.Count));
+            System.Console.WriteLine(mycont.GetElement(index:mycont.Size));
         }
 
     }
