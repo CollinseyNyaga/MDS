@@ -78,7 +78,8 @@ namespace test
             // System.Console.WriteLine(A);
             // System.Console.WriteLine(B);
 
-            System.Console.WriteLine(mycont.method());
+            mycont.method();
+            // System.Console.WriteLine();
         }
 
     }
