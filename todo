@@ -3,9 +3,11 @@
 - GetElement at the specified index.                                        @done
 
 
-- Check if an element is contained in the Data using the Ucont.Contains()     
+- Check if an element is contained in the Data using the Ucont.Contains()   
+  
 - Remove an element at the index provided and move the elements to the left.
-
+- when getting the elements in the container , throw an error and halt program when the element 
+	index provided is out of range . 
 
 
 finesse the compilation process of the test by creating the bash scripts better 
