@@ -98,7 +98,6 @@ namespace Mds
                         return element;
                     }
 
-
                     previousSeparatorIndex = i;
                     seperatorcount = seperatorcount + 1;
                 }
