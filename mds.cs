@@ -34,6 +34,7 @@ namespace Mds
             // the separator is variable and is used to make work easier for the lexer to determine the end of a piece of data. 
 
             Data = $"{Data}{element}{dataSeparator}";
+            Size = Size + 1;
         }
 
         public string GetElement(uint index)
@@ -54,15 +55,13 @@ namespace Mds
 
         public bool Contains(string element)
         {
-            for (uint i = 0 ; i < 7 ; i++)
+            for (uint i = 0; i <= Size; i++)
             {
-                System.Console.WriteLine(i);
-
-            //     // check if the element is contained in the container
-            //     if (GetElement(index: i) == element)
-            //     {
-            //         return true;
-            //     }
+                    // check if the element is contained in the container
+                    if (GetElement(index: i) == element)
+                    {
+                        return true;
+                    }
             }
 
             return false;
@@ -72,7 +71,7 @@ namespace Mds
         {
             for (uint i = 0; i < 7; i++)
             {
-                if(i == 4)
+                if (i == 4)
                 {
                     return true;
                 }
