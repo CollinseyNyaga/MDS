@@ -10,7 +10,7 @@ namespace Mds
     {
         // Ucont attributes 
         private string Data = "";
-        private int Size = 0;                           // number of elements - 1.
+        public int Size = 0;                           // number of elements - 1.
         UcontMode Mode = UcontMode.list;
         public static char dataSeparator = ']';
 
@@ -58,7 +58,7 @@ namespace Mds
 
             for (uint i = 0; i <= elementCount; i++)
             {
-                System.Console.WriteLine(GetElement(i));
+                System.Console.WriteLine(i);
 
                 // check if the element is contained in the container in a reverse order.
                 if(GetElement(i) == element)
