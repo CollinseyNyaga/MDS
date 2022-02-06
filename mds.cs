@@ -54,7 +54,7 @@ namespace Mds
 
         public bool Contains(string element)
         {
-            for (int i = 0 ; i < 7 ; i++)
+            for (uint i = 0 ; i < 7 ; i++)
             {
                 System.Console.WriteLine(i);
 
