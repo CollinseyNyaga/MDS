@@ -13,7 +13,8 @@ namespace test
         {
             // test0();
             // test1();
-            test2();
+            // test2();
+            test3();
         }
 
 
@@ -58,6 +59,13 @@ namespace test
             System.Console.WriteLine(myArr.GetElement(1));
 
 
+        }
+
+
+        static void test3()
+        {
+            // checking if an element is contained in the Universal container created as an object . 
+            System.Console.WriteLine("Thank God for this day");
         }
 
     }
