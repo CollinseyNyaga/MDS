@@ -56,7 +56,7 @@ namespace Mds
         {
             uint elementCount = (uint)Size;
 
-            for (uint i = 0; i < elementCount; i++)
+            for (uint i = 0; i <= elementCount; i++)
             {
                 System.Console.WriteLine(GetElement(i));
 
