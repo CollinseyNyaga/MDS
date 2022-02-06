@@ -66,7 +66,13 @@ namespace Mds
             }
         }
 
-
+        public void method()
+        {
+            for (int i = 0; i < 7; i++)
+            {
+                System.Console.WriteLine("hello");
+            }
+        }
 
         public string GetRawData()
         {
