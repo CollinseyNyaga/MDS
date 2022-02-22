@@ -3,6 +3,7 @@
 
 */
 
+using Mds;
 
 namespace Mds
 {
@@ -27,8 +28,7 @@ namespace Mds
 
 
         //
-        // Error objects : 
-        Mds.OutOfRangeError error = new Mds.OutOfRangeError();
+        
 
 
 
@@ -53,7 +53,7 @@ namespace Mds
             if (index >= Size)
             {
                 // return "index is outside the bounds of the ucont container";
-                GD.Print(error.A);
+                throw new Mds.OutOfRangeError("index provided is not within the ucont container");
             }
 
             return Mds.Lexer.GetElement(data: Data, index: index);

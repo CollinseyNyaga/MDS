@@ -3,7 +3,7 @@
 
 execName="test"
 
-mcs test.cs ../mds.cs -out:./build/"${execName}.exe"
+mcs test.cs ../mdserrors.cs ../mds.cs -out:./build/"${execName}.exe"
 
 printf "\n"
 printf "\n=====================================\n"

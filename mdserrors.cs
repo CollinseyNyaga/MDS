@@ -1,10 +1,14 @@
 // this file contains the error classes of the mds structures . 
-
+using System;
 
 namespace Mds
 {
-    public class OutOfRangeError
+    public class OutOfRangeError : System.Exception
     {
-        public int A = 7; 
+        // constructor :
+        public OutOfRangeError(string message)
+        {
+
+        }
     }
 }
