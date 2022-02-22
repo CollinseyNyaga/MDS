@@ -28,7 +28,7 @@ namespace Mds
 
 
         // properties : 
-        public string Size
+        public int Size
         {
             // readonly , cannot be set from external class .
             get{return size;}

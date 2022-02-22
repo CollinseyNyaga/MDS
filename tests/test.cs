@@ -94,5 +94,15 @@ namespace test
             System.Console.WriteLine(mycont.GetElement(index: 3));
         }
 
+        static void test5()
+        {
+            // printing out the size of a ucont container : 
+            Mds.Ucont uc = new Mds.Ucont();
+            uc.AddElement("hello");
+            uc.AddElement("world");
+
+            System.Console.WriteLine(uc.Size);
+        }
+
     }
 }
