@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 # this script takes the mds library file and test.cs files and compiles test program into executable. 
 
 execName="test"
