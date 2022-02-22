@@ -11,7 +11,7 @@ namespace Mds
     {
         // Ucont attributes 
         private string Data = "";
-        private int Size = 0;                           // number of elements - 1.
+        private int size = 0;                           // number of elements - 1.
         UcontMode Mode = UcontMode.list;
         public static char dataSeparator = ']';
 
@@ -27,8 +27,12 @@ namespace Mds
         }
 
 
-        //
-        
+        // properties : 
+        public string Size
+        {
+            // readonly , cannot be set from external class .
+            get{return size;}
+        }
 
 
 
@@ -44,13 +48,13 @@ namespace Mds
             // the separator is variable and is used to make work easier for the lexer to determine the end of a piece of data. 
 
             Data = $"{Data}{element}{dataSeparator}";
-            Size = Size + 1;
+            size = size + 1;
         }
 
         public string GetElement(uint index)
         {
             // we only get element when its within the size of the array : 
-            if (index >= Size)
+            if (index >= size)
             {
                 // return "index is outside the bounds of the ucont container";
                 throw new Mds.OutOfRangeError("index provided is not within the ucont container");
@@ -66,7 +70,7 @@ namespace Mds
 
         public bool Contains(string element)
         {
-            for (uint i = 0; i <= Size; i++)
+            for (uint i = 0; i <= size; i++)
             {
                 // check if the element is contained in the container
                 if (GetElement(index: i) == element)
