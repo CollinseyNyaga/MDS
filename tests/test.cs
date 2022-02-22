@@ -14,7 +14,8 @@ namespace test
             // test0();
             // test1();
             // test2();
-            test3();
+            // test3();
+            test4();
         }
 
 
@@ -73,11 +74,24 @@ namespace test
             bool A = mycont.Contains("5");                          // check if 5 is contained in the ucont container. 
             bool B = mycont.Contains("seven");                      // check if seven is contained in the ucont container. 
 
-            System.Console.WriteLine("mycont = " + mycont.GetRawData());       
-            System.Console.WriteLine("------------------");   
+            System.Console.WriteLine("mycont = " + mycont.GetRawData());
+            System.Console.WriteLine("------------------");
             System.Console.WriteLine($"mycont contains 5: {A}");
             System.Console.WriteLine($"mycont contains seven: {B}");
 
+        }
+
+        static void test4()
+        {
+            // getting an element that is out of range . 
+            Mds.Ucont mycont = new Mds.Ucont();
+
+            mycont.AddElement("hello");
+            mycont.AddElement("world");
+            mycont.AddElement("kenya");
+
+
+            System.Console.WriteLine(mycont.GetElement(index: 2));
         }
 
     }

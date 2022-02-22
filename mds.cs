@@ -40,9 +40,9 @@ namespace Mds
         public string GetElement(uint index)
         {
             // we only get element when its within the size of the array : 
-            if (index >= Data.Length)
+            if (index >= Size)
             {
-                return "";
+                return "index is outside the bounds of the ucont container";
             }
 
             return Mds.Lexer.GetElement(data: Data, index: index);
@@ -115,7 +115,6 @@ namespace Mds
                     seperatorcount = seperatorcount + 1;
                 }
             }
-
 
             return element;
         }
