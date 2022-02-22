@@ -4,7 +4,6 @@ namespace Mds
 {
     public class OutOfRangeError
     {
-        
-    }
 
+    }
 }
