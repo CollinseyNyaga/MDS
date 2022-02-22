@@ -27,6 +27,16 @@ namespace Mds
 
 
         //
+        // Error objects : 
+        Mds.OutOfRangeError error = new Mds.OutOfRangeError();
+
+
+
+
+
+
+
+        // 
 
         // Ucont methods 
         public void AddElement(string element)
@@ -42,7 +52,8 @@ namespace Mds
             // we only get element when its within the size of the array : 
             if (index >= Size)
             {
-                return "index is outside the bounds of the ucont container";
+                // return "index is outside the bounds of the ucont container";
+                GD.Print(error.A);
             }
 
             return Mds.Lexer.GetElement(data: Data, index: index);
