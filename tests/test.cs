@@ -91,7 +91,7 @@ namespace test
             mycont.AddElement("kenya");
 
 
-            System.Console.WriteLine(mycont.GetElement(index: 2));
+            System.Console.WriteLine(mycont.GetElement(index: 3));
         }
 
     }
