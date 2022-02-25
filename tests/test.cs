@@ -108,6 +108,8 @@ namespace test
 
         static void test6()
         {
+            // removing an element at the specified index. 
+
             Mds.Ucont ucc = new Mds.Ucont();
             ucc.AddElement("hello");
             ucc.AddElement("hey there");
