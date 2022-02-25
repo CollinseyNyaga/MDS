@@ -4,11 +4,11 @@
 - Check if an element is contained in the Data using the Ucont.Contains()   @done
 - when getting the elements in the container , throw an error and halt program when the element 
 	index provided is out of range . 
+- Make some properties available from the outside eg: Size
   
 
 
 - Remove an element at the index provided and move the elements to the left.
-- Make some properties available from the outside eg: Size
 - Document the methods , properties , classes , enums and stuff. 
 
 
