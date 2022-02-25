@@ -16,7 +16,8 @@ namespace test
             // test2();
             // test3();
             // test4();
-            test5();
+            // test5();
+            test6();
         }
 
 
@@ -103,6 +104,11 @@ namespace test
             uc.AddElement("world");
 
             System.Console.WriteLine(uc.Size);
+        }
+
+        static void test6()
+        {
+            System.Console.WriteLine("deleted the element at the given index.");
         }
 
     }
