@@ -31,7 +31,7 @@ namespace Mds
         public int Size
         {
             // readonly , cannot be set from external class .
-            get{return size;}
+            get { return size; }
         }
 
 
@@ -91,8 +91,11 @@ namespace Mds
 
         public void RemoveElement(uint index)
         {
-            // remove an element at the passed index .
-            
+            // remove an element at the specified index .
+            if (index > size)
+            {
+                throw new Mds.OutOfRangeError("the element at the specified index cannot be removed because it doesnt exist");
+            }
         }
 
 
