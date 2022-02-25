@@ -108,7 +108,12 @@ namespace test
 
         static void test6()
         {
-            System.Console.WriteLine("deleted the element at the given index.");
+            Mds.Ucont ucc = new Mds.Ucont();
+            ucc.AddElement("hello");
+            ucc.AddElement("hey there");
+
+            System.Console.WriteLine(ucc.Size);
+            ucc.RemoveElement(1);
         }
 
     }
