@@ -89,6 +89,12 @@ namespace Mds
             return Data;
         }
 
+        public void RemoveElement(uint index)
+        {
+            // remove an element at the passed index .
+            
+        }
+
 
     }
 
