@@ -97,12 +97,21 @@ namespace Mds
                 throw new Mds.OutOfRangeError("the element at the specified index cannot be removed because it doesnt exist");
             }
 
+            uint seperatorcount = 0;
+
             for (int cursorposition = 0; cursorposition < Data.Length; cursorposition++)
             {
-                if(Data[cursorposition] == dataSeparator)
+                if (Data[cursorposition] == dataSeparator)
                 {
-                    System.Console.WriteLine("cursorfound");
-                }                
+                    // seperator found in the data . 
+                    seperatorcount = seperatorcount + 1;
+
+                    if (seperatorcount == index)
+                    {
+                        // remove element from the data string , starting from the cursor position to the left , until we reach the end of the element. 
+                        
+                    }
+                }
             }
         }
 
