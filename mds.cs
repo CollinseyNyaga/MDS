@@ -110,6 +110,10 @@ namespace Mds
                     {
                         // remove element from the data string , starting from the cursor position to the left , until we reach the end of the element. 
                         
+                        /*
+                            T       D
+                                O       O
+                        */
                     }
                 }
             }
